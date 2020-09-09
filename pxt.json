@@ -1,0 +1,23 @@
+{
+    "name": "Speech",
+    "version": "1.0.1",
+    "description": "Extension for YahBoom Speech V1.0.1",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "neopixel": "github:lzty634158/pxt-neopixel",
+        "Mbit_IR":  "github:lzty634158/yahboom_mbit_IR"
+	
+
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh-cn/Speech-strings.json",
+        "_locales/zh-tw/Speech-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}

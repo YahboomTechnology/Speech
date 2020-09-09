@@ -1,0 +1,66 @@
+{
+
+  "Speech.Speech_Text|block": "语音播报文本|为 %speech_text",
+  
+  "Speech.ChipStatus_Type.ChipStatus_InitSuccessful|block": "初始化成功回传",
+  "Speech.ChipStatus_Type.ChipStatus_CorrectCommand|block": "收到正确的命令帧回传",
+  "Speech.ChipStatus_Type.ChipStatus_ErrorCommand|block": "收到不能识别命令帧回传",
+  "Speech.ChipStatus_Type.ChipStatus_Busy|block": "芯片忙碌状态回传",
+  "Speech.ChipStatus_Type.ChipStatus_Idle|block": "芯片空闲状态回传",  
+  "Speech.GetChipStatus|block": "获取芯片状态值",
+  "Speech.Wait_XFS_Status|block": "等待芯片为指定状态|为 %status",  
+
+  "Speech.Style_Type.Style_Single|block": "一字一顿",
+  "Speech.Style_Type.Style_Continue|block": "正常合成",
+  "Speech.SetStyle|block": "合成风格设置|为 %style_type",
+
+  "Speech.Language_Type.Language_Auto|block": "自动判断语种",
+  "Speech.Language_Type.Language_Chinese|block": "合成为中文",
+  "Speech.Language_Type.Language_English|block": "合成为英文", 
+  "Speech.SetLanguage|block": "合成语种设置|为 %language_type",
+
+  "Speech.Articulation_Type.Articulation_Auto|block": "自动判断单词发音方式",
+  "Speech.Articulation_Type.Articulation_Letter|block": "字母发音方式",
+  "Speech.Articulation_Type.Articulation_Word|block": "单词发音方式", 
+  "Speech.SetArticulation|block": "设置单词的发音方式|为 %articulation_type",
+
+  "Speech.Spell_Type.Spell_Disable|block": "不识别汉语拼音",
+  "Speech.Spell_Type.Spell_Enable|block": "识别汉语拼音+1位数字声调",
+  "Speech.SetSpell|block": "汉语拼音识别设置|为 %spell_type",
+
+  "Speech.Reader_Type.Reader_XiaoYan|block": "小燕(女声，推荐发音人)",
+  "Speech.Reader_Type.Reader_XuJiu|block": "许久(男声, 推荐发音人)",
+  "Speech.Reader_Type.Reader_XuDuo|block": "许多(男声)", 
+  "Speech.Reader_Type.Reader_XiaoPing|block": "小萍(女声)",
+  "Speech.Reader_Type.Reader_DonaldDuck|block": "唐老鸭(效果器)",
+  "Speech.Reader_Type.Reader_XuXiaoBao|block": "许小宝(女童声)",   
+  "Speech.SetReader|block": "设置发音人|为 %reader_type",
+  
+  "Speech.NumberHandle_Type.NumberHandle_Auto|block": "自动判断",
+  "Speech.NumberHandle_Type.NumberHandle_Number|block": "数字作号码处理",
+  "Speech.NumberHandle_Type.NumberHandle_Value|block": "数字作数值处理", 
+  "Speech.SetNumberHandle|block": "设置数字处理策略|为 %numberhandle_type", 
+
+  "Speech.ZeroPronunciation_Type.ZeroPronunciation_Zero|block": "读成zero",
+  "Speech.ZeroPronunciation_Type.ZeroPronunciation_O|block": "读成欧音",
+  "Speech.SetZeroPronunciation|block": "数字0在读作英文、号码时的读法|为 %zeropronunciation_type",
+
+  "Speech.NamePronunciation_Type.NamePronunciation_Auto|block": "自动判断姓氏读音",
+  "Speech.NamePronunciation_Type.NamePronunciation_Constraint|block": "强制使用姓氏读音规则",
+  "Speech.SetNamePronunciation|block": "设置姓名读音策略|为 %namepronunciation_type",
+
+  "Speech.SetSpeed|block": "设置语速(0-10)|为 %speed", 
+  "Speech.SetIntonation|block": "设置语调(0-10)|为 %intonation",   
+  "Speech.SetVolume|block": "设置音量(0-10)|为 %volume",
+  
+  "Speech.OnePronunciation_Type.OnePronunciation_Yao|block": "合成号码1时读成幺",
+  "Speech.OnePronunciation_Type.OnePronunciation_Yi|block": "合成号码1时读成一",
+  "Speech.SetOnePronunciation|block": "设置号码中1的读法|为 %onepronunciation_type",
+
+  "Speech.Rhythm_Type.Rhythm_Diasble|block": "*和#读出符号",
+  "Speech.Rhythm_Type.Rhythm_Enable|block": "处理成韵律，*用于断词，#用于停顿",
+  "Speech.SetRhythm|block": "韵律设置|为 %rhythm_type",
+  
+  "Speech.SetRestoreDefault|block": "恢复默认的合成参数所有设置（除发音人设置、语种设置外）恢复为默认值"
+
+}
