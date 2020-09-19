@@ -32,7 +32,7 @@ namespace Speech {
         }
     }
 
-    //% blockId=Speech_Text block="Speech_Text|speech_text %speech_text"
+    //% blockId=Speech_Text block="Speech_Text|%speech_text"
     //% weight=99
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12  
@@ -91,7 +91,7 @@ namespace Speech {
     }
 
 
-    //% blockId=Wait_XFS_Status block="Wait_XFS_Status|status %status"
+    //% blockId=Wait_XFS_Status block="Wait_XFS_Status|%status"
     //% weight=99
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12  
@@ -130,7 +130,7 @@ namespace Speech {
 
     }
 
-    //% blockId=SetStyle block="SetStyle|style_type %style_type"
+    //% blockId=SetStyle block="SetStyle|%style_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -162,7 +162,7 @@ namespace Speech {
         Language_English
     }
 
-    //% blockId=SetLanguage block="SetLanguage|language_type %language_type"
+    //% blockId=SetLanguage block="SetLanguage|%language_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -199,7 +199,7 @@ namespace Speech {
         Articulation_Word
     }
 
-    //% blockId=SetArticulation block="SetArticulation|articulation_type %articulation_type"
+    //% blockId=SetArticulation block="SetArticulation|%articulation_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -234,7 +234,7 @@ namespace Speech {
         Spell_Enable
     }
 
-    //% blockId=SetSpell block="SetSpell|spell_type %spell_type"
+    //% blockId=SetSpell block="SetSpell|%spell_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -274,7 +274,7 @@ namespace Speech {
         Reader_XuXiaoBao = 55
     }
 
-    //% blockId=SetReader block="SetReader|reader_type %reader_type"
+    //% blockId=SetReader block="SetReader|%reader_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -323,7 +323,7 @@ namespace Speech {
         NumberHandle_Value
     }
 
-    //% blockId=SetNumberHandle block="SetNumberHandle|numberhandle_type %numberhandle_type"
+    //% blockId=SetNumberHandle block="SetNumberHandle|%numberhandle_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -357,7 +357,7 @@ namespace Speech {
         ZeroPronunciation_O
     }
 
-    //% blockId=SetZeroPronunciation block="SetZeroPronunciation|zeropronunciation_type %zeropronunciation_type"
+    //% blockId=SetZeroPronunciation block="SetZeroPronunciation|%zeropronunciation_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -387,7 +387,7 @@ namespace Speech {
         NamePronunciation_Constraint
     }
 
-    //% blockId=SetNamePronunciation block="SetNamePronunciation|namepronunciation_type %namepronunciation_type"
+    //% blockId=SetNamePronunciation block="SetNamePronunciation|%namepronunciation_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -409,7 +409,7 @@ namespace Speech {
         }    
     }
 
-    //% blockId=SetSpeed block="SetSpeed|speed %speed"
+    //% blockId=SetSpeed block="SetSpeed|%speed"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -423,7 +423,7 @@ namespace Speech {
             }
     }
 
-    //% blockId=SetIntonation block="SetIntonation|intonation %intonation"
+    //% blockId=SetIntonation block="SetIntonation|%intonation"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -437,7 +437,7 @@ namespace Speech {
         }
     }
 
-    //% blockId=SetVolume block="SetVolume|volume %volume"
+    //% blockId=SetVolume block="SetVolume|%volume"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -459,7 +459,7 @@ namespace Speech {
         OnePronunciation_Yi
     }
 
-    //% blockId=SetOnePronunciation block="SetOnePronunciation|onepronunciation_type %onepronunciation_type"
+    //% blockId=SetOnePronunciation block="SetOnePronunciation|%onepronunciation_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
@@ -490,7 +490,7 @@ namespace Speech {
         Rhythm_Enable
     }
 
-    //% blockId=SetRhythm block="SetRhythm|rhythm_type %rhythm_type"
+    //% blockId=SetRhythm block="SetRhythm|%rhythm_type"
     //% weight=92
     //% blockGap=10
     //% color="#006400"
