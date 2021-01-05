@@ -5,9 +5,9 @@ load dependency
 "Speech": "file:../pxt-Speech"
 */
 
-//% color="#006400" weight=20 icon="\uf0a1"
+//% color="#3CB371" weight=20 icon="\uf0a1"
 namespace Speech {
-    const I2C_ADDR = 0x50                   //模块地址
+    const I2C_ADDR = 0x30                   //模块地址
     const DATA_HEAD = 0xFD                  //帧头
     
 
@@ -32,7 +32,7 @@ namespace Speech {
         }
     }
 
-    //% blockId=Speech_Text block="Speech_Text|%speech_text"
+    //% blockId=Speech_Text block="Speech_Text|speech_text %speech_text"
     //% weight=99
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12  
@@ -91,7 +91,7 @@ namespace Speech {
     }
 
 
-    //% blockId=Wait_XFS_Status block="Wait_XFS_Status|%status"
+    //% blockId=Wait_XFS_Status block="Wait_XFS_Status|status %status"
     //% weight=99
     //% blockGap=10
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12  
@@ -130,10 +130,10 @@ namespace Speech {
 
     }
 
-    //% blockId=SetStyle block="SetStyle|%style_type"
+    //% blockId=SetStyle block="SetStyle|style_type %style_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetStyle(style_type:Style_Type): void { 
         
@@ -162,10 +162,10 @@ namespace Speech {
         Language_English
     }
 
-    //% blockId=SetLanguage block="SetLanguage|%language_type"
+    //% blockId=SetLanguage block="SetLanguage|language_type %language_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetLanguage(language_type:Language_Type): void { 
         
@@ -199,10 +199,10 @@ namespace Speech {
         Articulation_Word
     }
 
-    //% blockId=SetArticulation block="SetArticulation|%articulation_type"
+    //% blockId=SetArticulation block="SetArticulation|articulation_type %articulation_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetArticulation(articulation_type:Articulation_Type): void { 
         
@@ -234,10 +234,10 @@ namespace Speech {
         Spell_Enable
     }
 
-    //% blockId=SetSpell block="SetSpell|%spell_type"
+    //% blockId=SetSpell block="SetSpell|spell_type %spell_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetSpell(spell_type:Spell_Type): void { 
         
@@ -274,10 +274,10 @@ namespace Speech {
         Reader_XuXiaoBao = 55
     }
 
-    //% blockId=SetReader block="SetReader|%reader_type"
+    //% blockId=SetReader block="SetReader|reader_type %reader_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetReader(reader_type:Reader_Type): void { 
         
@@ -323,10 +323,10 @@ namespace Speech {
         NumberHandle_Value
     }
 
-    //% blockId=SetNumberHandle block="SetNumberHandle|%numberhandle_type"
+    //% blockId=SetNumberHandle block="SetNumberHandle|numberhandle_type %numberhandle_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetNumberHandle(numberhandle_type:NumberHandle_Type): void { 
         
@@ -357,10 +357,10 @@ namespace Speech {
         ZeroPronunciation_O
     }
 
-    //% blockId=SetZeroPronunciation block="SetZeroPronunciation|%zeropronunciation_type"
+    //% blockId=SetZeroPronunciation block="SetZeroPronunciation|zeropronunciation_type %zeropronunciation_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetZeroPronunciation(zeropronunciation_type:ZeroPronunciation_Type): void { 
         
@@ -387,10 +387,10 @@ namespace Speech {
         NamePronunciation_Constraint
     }
 
-    //% blockId=SetNamePronunciation block="SetNamePronunciation|%namepronunciation_type"
+    //% blockId=SetNamePronunciation block="SetNamePronunciation|namepronunciation_type %namepronunciation_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetNamePronunciation(namepronunciation_type:NamePronunciation_Type): void { 
         
@@ -409,10 +409,10 @@ namespace Speech {
         }    
     }
 
-    //% blockId=SetSpeed block="SetSpeed|%speed"
+    //% blockId=SetSpeed block="SetSpeed|speed %speed"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetSpeed(speed:number): void { 
         
@@ -423,10 +423,10 @@ namespace Speech {
             }
     }
 
-    //% blockId=SetIntonation block="SetIntonation|%intonation"
+    //% blockId=SetIntonation block="SetIntonation|intonation %intonation"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetIntonation(intonation:number): void { 
         
@@ -437,10 +437,10 @@ namespace Speech {
         }
     }
 
-    //% blockId=SetVolume block="SetVolume|%volume"
+    //% blockId=SetVolume block="SetVolume|volume %volume"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetVolume(volume:number): void { 
         
@@ -459,10 +459,10 @@ namespace Speech {
         OnePronunciation_Yi
     }
 
-    //% blockId=SetOnePronunciation block="SetOnePronunciation|%onepronunciation_type"
+    //% blockId=SetOnePronunciation block="SetOnePronunciation|onepronunciation_type %onepronunciation_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetOnePronunciation(onepronunciation_type:OnePronunciation_Type): void { 
         
@@ -490,10 +490,10 @@ namespace Speech {
         Rhythm_Enable
     }
 
-    //% blockId=SetRhythm block="SetRhythm|%rhythm_type"
+    //% blockId=SetRhythm block="SetRhythm|rhythm_type %rhythm_type"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetRhythm(rhythm_type:Rhythm_Type): void { 
         
@@ -514,7 +514,7 @@ namespace Speech {
     //% blockId=SetRestoreDefault block="SetRestoreDefault"
     //% weight=92
     //% blockGap=10
-    //% color="#006400"
+    //% color="#3CB371"
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function SetRestoreDefault(): void { 
         
