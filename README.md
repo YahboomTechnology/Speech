@@ -1,6 +1,6 @@
 # Speech
 
-Extension for Yahboom Speech V1.0
+Extension for Yahboom Speech V1.1
 
 ## License
 

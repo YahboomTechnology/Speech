@@ -7,9 +7,18 @@ load dependency
 
 //% color="#3CB371" weight=20 icon="\uf0a1"
 namespace Speech {
-    const I2C_ADDR = 0x30                   //模块地址
+    
     const DATA_HEAD = 0xFD                  //帧头
     
+    let I2C_ADDR = 0x30 
+
+    export enum I2C_ADDR_Select{
+        //% blockId="NEW_ADDR" block="NEW_ADDR"
+        NEW_ADDR = 0x30,
+        //% blockId="OLD_ADDR" block="OLD_ADDR"  
+        OLD_ADDR = 0x50
+    }
+
 
     export enum EncodingFormat_Type{
         //% blockId="GB2312" block="GB2312"
@@ -21,6 +30,16 @@ namespace Speech {
         //% blockId="UNICODE" block="UNICODE"        
         UNICODE = 0x03
     }
+
+
+    //% blockId=Set_IICAddress block="Set_IICAddress|i2c_address %i2c_address"
+    //% weight=99
+    //% blockGap=10
+    //% name.fieldEditor="gridpicker" name.fieldOptions.columns=12  
+    export function Set_IICAddress(i2c_address: I2C_ADDR_Select): void {
+        I2C_ADDR = i2c_address;
+    }
+
 
 
     function IIC_Writes(date: number[], size: number): void {

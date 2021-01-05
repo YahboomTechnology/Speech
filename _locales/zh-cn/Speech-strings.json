@@ -1,4 +1,7 @@
 {
+  "Speech.I2C_ADDR_Select.NEW_ADDR|block": "新地址（0x30）",
+  "Speech.I2C_ADDR_Select.OLD_ADDR|block": "旧地址（0x50）",
+  "Speech.Set_IICAddress|block": "设置积木IIC地址|为 %i2c_address",
 
   "Speech.Speech_Text|block": "语音播报文本|为 %speech_text",
   
@@ -62,5 +65,7 @@
   "Speech.SetRhythm|block": "韵律设置|为 %rhythm_type",
   
   "Speech.SetRestoreDefault|block": "恢复默认的合成参数所有设置（除发音人设置、语种设置外）恢复为默认值"
+
+  
 
 }

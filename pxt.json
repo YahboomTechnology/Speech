@@ -4,8 +4,7 @@
     "description": "Extension for YahBoom Speech V1.0.1",
     "license": "MIT",
     "dependencies": {
-        "core": "*",
-        "neopixel": "github:lzty634158/pxt-neopixel"
+        "core": "*"
 	
 
     },
