@@ -117,7 +117,7 @@ namespace Speech {
     export function Wait_XFS_Status(status:ChipStatus_Type): void {
         while(GetChipStatus() !=  status)
         {
-            basic.pause(50);
+            basic.pause(20);
         }
         
     }
